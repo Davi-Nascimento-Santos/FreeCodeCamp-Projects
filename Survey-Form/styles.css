@@ -1,0 +1,24 @@
+h1, p {
+    font-family: 'Courier New', Courier, monospace;
+    text-align: center;
+    color: white;
+    font-size: 40px;
+    margin-bottom: 5px;
+}
+p {
+    font-size: 14px;
+    margin-bottom: 20px;
+}
+body {
+    background: rgb(238, 103, 238);
+    width: auto;
+    height: auto;
+}
+.main {
+    width: 40%;
+    height: 700px;
+    min-height: 200px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: aliceblue;
+}
