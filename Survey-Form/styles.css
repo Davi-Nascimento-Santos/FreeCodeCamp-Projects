@@ -10,7 +10,7 @@ p {
     margin-bottom: 20px;
 }
 body {
-    background: rgb(238, 103, 238);
+    background: #171741;
     width: auto;
     height: auto;
 }
@@ -18,7 +18,14 @@ body {
     width: 40%;
     height: 700px;
     min-height: 200px;
-    margin-left: auto;
-    margin-right: auto;
+    margin: auto;
     background-color: aliceblue;
+}
+label {
+    display: block;
+    margin: 10px
+}
+input {
+    display: block;
+    margin: 5px 0;
 }
