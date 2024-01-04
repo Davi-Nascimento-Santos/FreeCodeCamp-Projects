@@ -7,38 +7,48 @@
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-    <h1><strong>Music Preference</strong></h1>
-    <p id="description">Formulário para desenvolver minhas habilidades com html e css</p>
-    <div class="main">
-        <form action="">
-            <fieldset>
-                <label for="name">Name: </label><input required type="text" id="name" placeholder="Enter your name">
-                <label for="email">Email: </label><input required type="email" id="email" placeholder="Enter your email">
-                <label for="number">Age: </label><input required type="number" id="number" min=12 max=100 placeholder="Age">
-                <label>Which kind of musical style do you like?</label>
-                <label><input type="checkbox" class="form"> Pop</label>
-                <label><input type="checkbox" class="form"> Rock</label>
-                <label><input type="checkbox" class="form"> Funk</label>
-                <label><input type="checkbox" class="form"> Hip-Hop</label>
-                <label><input type="checkbox" class="form"> Classic</label>
-                <label><input type="checkbox" class="form"> Reggae</label>
-                <label><input type="checkbox" class="form"> Jazz</label>
-                <label><input type="checkbox" class="form"> Trap</label>
-                <label><input type="checkbox" class="form"> Country</label>
-                <label>Do you usually listen to these type of musics?</label>
-                <label for="survey-form"><input checked type="radio" name="survey-form" id="survey-form"> Yes</label>
-                <label for="survey-form"><input type="radio" name="survey-form" id="survey-form"> No</label>
-                <label for="select">How long do you list to the music? <select id="select">
-                    <option id="">Choose one option</option>
-                    <option id="1">Less than one hour</option>
-                    <option id="2">between One and two hours</option>
-                    <option id="3">More than two hours</option>
-                </select></label>
-                <label>Describe how important is the music in your life:</label>
-                <textarea cols="70" rows="10" placeholder="The music is important in my life because..."></textarea>
-                <label for="submit"><input id="submit" type="submit"></label>
-            </fieldset>
-        </form>
-    </div>
+    <h1 id="title">Music Preference Form</h1>
+    <p id="description">This is a form to increase my skills in html and css</p>
+    <form action="">
+        <fieldset>
+            <label for="name" id="name-label">Name: </label><input required type="text" id="name" placeholder="Enter your name">
+            <label for="email" id="email-label">Email: </label><input required type="email" id="email" placeholder="Enter your email">
+            <label for="number" id="number-label">Age: </label><input required type="number" id="number" min=12 max=100 placeholder="Enter your age">
+        </fieldset>
+        <fieldset>
+            <label>Which kind of musical style do you like?</label>
+            <label><input type="checkbox" class="form" value="Pop"> Pop</label>
+            <label><input type="checkbox" class="form" value="Rock"> Rock</label>
+            <label><input type="checkbox" class="form" value="Funk"> Funk</label>
+            <label><input type="checkbox" class="form" value="Hip-Hop"> Hip-Hop</label>
+            <label><input type="checkbox" class="form" value="Classic"> Classic</label>
+            <label><input type="checkbox" class="form" value="Reggae"> Reggae</label>
+            <label><input type="checkbox" class="form" value="Jazz"> Jazz</label>
+            <label><input type="checkbox" class="form" value="Trap"> Trap</label>
+            <label><input type="checkbox" class="form" value="Country"> Country</label>
+        </fieldset>
+        <fieldset>
+            <legend>Do you usually listen to these type of musics?</legend>
+            <label for="survey-form"><input checked type="radio" name="survey-form" id="survey-form"> Yes</label>
+            <label for="survey-form"><input type="radio" name="survey-form" id="survey-form"> No</label>
+        </fieldset>
+        <fieldset>
+            <label for="select">How long do you list to the music?
+            <select id="select">
+                <option id="">Choose one option</option>
+                <option id="1">Less than one hour</option>
+                <option id="2">between One and two hours</option>
+                <option id="3">More than two hours</option>
+            </select></label>
+        </fieldset>
+        <fieldset>
+            <label>Describe how important is the music in your life:
+            <textarea cols="70" rows="10" placeholder="The music is important in my life because..."></textarea>
+            </label>
+        </fieldset>
+        <fieldset>
+            <label for="submit"><input id="submit" type="submit"></label>
+        </fieldset>
+    </form>
 </body>
 </html>
