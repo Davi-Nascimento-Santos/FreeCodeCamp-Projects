@@ -2,30 +2,42 @@ h1, p {
     font-family: 'Courier New', Courier, monospace;
     text-align: center;
     color: white;
-    font-size: 40px;
+    font-size: 3em;
     margin-bottom: 5px;
 }
 p {
-    font-size: 14px;
+    font-size: 0.8em;
     margin-bottom: 20px;
+    font-style: italic;
 }
 body {
-    background: #171741;
     width: auto;
     height: auto;
+    margin: auto;
+    background-color: rgb(26, 30, 96);
 }
 .main {
     width: 40%;
-    height: 700px;
-    min-height: 200px;
-    margin: auto;
-    background-color: aliceblue;
+    min-width: 200px;
+    max-width: 700px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #27274669;
+    border: 0px;
+    border-color: black;
 }
-label {
-    display: block;
-    margin: 10px
+form {
+    border-color: black;
 }
-input {
+fieldset{
+    font-size: 1.3em;
+}
+label, select {
     display: block;
-    margin: 5px 0;
+    padding-left: 0%;
+}
+#name, #email, #number {
+    margin-left: auto;
+    margin-right: auto;
+
 }
