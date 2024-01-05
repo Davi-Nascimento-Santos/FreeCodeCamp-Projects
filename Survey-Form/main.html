@@ -9,7 +9,7 @@
 <body>
     <h1 id="title">Music Preference Form</h1>
     <p id="description">This is a form to increase my skills in html and css</p>
-    <form action="">
+    <form action="" id="survey-form">
         <fieldset>
             <label for="name" id="name-label">Name: </label><input required type="text" id="name" placeholder="Enter your name">
             <label for="email" id="email-label">Email: </label><input required type="email" id="email" placeholder="Enter your email">
@@ -25,25 +25,25 @@
             <label><input type="checkbox" class="form" value="Reggae"> Reggae</label>
             <label><input type="checkbox" class="form" value="Jazz"> Jazz</label>
             <label><input type="checkbox" class="form" value="Trap"> Trap</label>
-            <label><input type="checkbox" class="form" value="Country"> Country</label>
+            <label><input type="checkbox" class="form" value="Country" id="last-checkbox"> Country</label>
         </fieldset>
         <fieldset>
             <legend>Do you usually listen to these type of musics?</legend>
-            <label for="survey-form"><input checked type="radio" name="survey-form" id="survey-form"> Yes</label>
-            <label for="survey-form"><input type="radio" name="survey-form" id="survey-form"> No</label>
+            <label for="survey-form"><input checked type="radio" name="survey-form" id="survey-form" value="yes"> Yes</label>
+            <label for="survey-form"><input type="radio" name="survey-form" id="survey-form" value="no"> No</label>
         </fieldset>
         <fieldset>
             <label for="select">How long do you list to the music?
-            <select id="select">
-                <option id="">Choose one option</option>
+            <select id="dropdown">
+                <option id="" disabled selected>Select an option</option>
                 <option id="1">Less than one hour</option>
-                <option id="2">between One and two hours</option>
+                <option id="2">between one and two hours</option>
                 <option id="3">More than two hours</option>
             </select></label>
         </fieldset>
         <fieldset>
-            <label>Describe how important is the music in your life:
-            <textarea cols="70" rows="10" placeholder="The music is important in my life because..."></textarea>
+            <label for="textarea" id="tabel">Describe how important is the music in your life:
+            <textarea id="textarea" cols="3" rows="10" placeholder="The music is important in my life because..."></textarea>
             </label>
         </fieldset>
         <fieldset>
