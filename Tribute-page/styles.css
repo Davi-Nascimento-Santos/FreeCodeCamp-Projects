@@ -1,0 +1,15 @@
+body {
+    background-color: #FFFFFF;
+}
+main {
+    background-color: #EEEEEE;
+    padding: 30px 20px;
+    min-width: 300px;
+    margin: 30px auto;
+    border-radius: 3px;
+}
+.second {
+    background-color: #FFFFFF;
+    padding: 30px auto;
+    margin: 30px auto;
+}
